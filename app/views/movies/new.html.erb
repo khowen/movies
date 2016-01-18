@@ -1,0 +1,16 @@
+<h1 class="center-align">Find Movies</h1>
+<div class="row">
+  <div class="col s6">
+    <p>Quick Add:</p>
+    <div class="input-field">
+      <input class="quick-find" type="text" name="movie[title]" length="50">
+      <button id="find-movie" class="btn-large waves-effect waves-light purple darken-2">Submit
+      <i class="material-icons right">send</i></button>
+    </div>
+    <div class="row movie-search"></div>
+  </div>
+  <div class="col s6">
+    <p>Add Movie:</p>
+    <%= render 'form' %>
+  </div>
+</div>

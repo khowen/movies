@@ -1,0 +1,10 @@
+<div class="fixed-action-btn vertical click-to-toggle" style="bottom: 30px; right: 15px;">
+  <a class="btn-floating btn-small lime accent-3">
+    <i class="small mdi-navigation-menu"></i>
+  </a>
+  <ul>
+    <li><a class="card-title btn-floating lime accent-3"><i class="material-icons">close</i></a></li>
+    <li><%= link_to '<i class="material-icons">delete</i>', movie, method: :delete, data: {confirm: "Are you sure you want to delete this movie?"}, class: "btn-floating btn-small lime accent-3" %></li>
+    <li><%#= link_to '<i class="material-icons">info</i>', :class => 'btn-floating lime accent-3', edit_movie_path(@movie[:id]) %></li>
+  </ul>
+</div>

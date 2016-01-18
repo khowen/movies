@@ -1,0 +1,20 @@
+<nav>
+  <div class="nav-wrapper purple darken-2">
+    <div class="container">
+    <a class="brand-logo icon" href="/movies"></a>
+     <% if user_signed_in? %>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li><%= link_to "Add Movie", new_movie_path %></li>
+        <li><%= link_to "My Favs", movies_path %></li>
+        <li><%= link_to "Sign out", destroy_user_session_path, :method => :delete %></li>
+      </ul>
+      <% else %>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <li><%= link_to "Sign up", new_user_registration_path %></li>
+          <li><%= link_to "Sign in", new_user_session_path %></li>
+        </ul>
+      <% end %>
+      </div>
+  </div>
+</nav>
+

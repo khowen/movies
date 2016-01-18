@@ -1,0 +1,13 @@
+<div class="fixed-action-btn horizontal click-to-toggle" style="bottom: 45px; right: 24px;">
+  <a class="btn-floating btn-small lime accent-3">
+    <i class="small mdi-navigation-menu"></i>
+  </a>
+  <ul>
+    <li><a class="card-title btn-floating lime accent-3"><i class="material-icons">close</i></a></li>
+<!--     <li><a href="/movies/:id/edit" class="btn-floating lime accent-3"><i class="material-icons">info</i></a></li>
+    <li><a href="/movies/:id/destroy" class="btn-floating lime accent-3"><i class="material-icons">delete</i></a></li> -->
+    <li><%= link_to '<i class="material-icons">delete</i> Do it@'.html_safe, @movie, :class => 'btn-floating lime accent-3',method: :delete, data: {confirm: "Are you sure you want to delete #{@movie.name}?"} %></li>
+    <li><%= link_to '<i class="material-icons">info</i> Do it@'.html_safe, :class => 'btn-floating lime accent-3',edit_movie_path(@movie[:id]) %></li>
+  </ul>
+</div>
+<%= @movie %>
