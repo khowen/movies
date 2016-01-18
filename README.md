@@ -17,4 +17,4 @@ The goal of this project was to develop a fully restful, CRUD based Rails app fr
 9. CRUD
 
 ####Link to Photoshop User Page View:
-`![Photoshop Mockup - User Profile View](/public/mockup-user-view.jpg)`
+`[User Default View]: /public/mockup-user-view.jpg`
