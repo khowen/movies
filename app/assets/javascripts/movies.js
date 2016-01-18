@@ -5,7 +5,7 @@ $(document).ready(function(){
      var movieData = {};
 
     $.get('http://www.omdbapi.com/?t=' + $name + '&y=&plot=short&r=json&type=movie&tomatoes=true', function(data) {
-      //console.log(data);
+      console.log(data);
       if(data.Response === "False") {
         $('.movie-search').append('<p>It looks like we couldn\'t find your movie in our database. Please use the form below!</p>');
       } else {
