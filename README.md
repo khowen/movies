@@ -20,5 +20,5 @@ The goal of this project was to develop a fully restful, CRUD based Rails app fr
 11. Adobe Illustrator
 
 ####Link to Photoshop User Page View:
-`[User Default View]: /public/MovieApp.jpg`
-`[Psd File]: /public/MovieApp.psd`
+`[User Default View]: ../public/MovieApp.jpg`
+`[Psd File]: ../public/MovieApp.psd`
