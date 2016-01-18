@@ -2,7 +2,6 @@ $(document).ready(function(){
   $('#find-movie').on('click', function() {
      $('.movie-search').html('');
      var $name = $('.quick-find').val();
-     var movieData = {};
 
     $.get('//www.omdbapi.com/?t=' + $name + '&y=&plot=short&r=json&type=movie&tomatoes=true', function(data) {
       console.log(data);

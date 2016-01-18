@@ -37,19 +37,6 @@ h2 {
   font-size: 3rem;
 }
 
-.home-image {
-  background: url('icon.svg') no-repeat top center;
-  height: 20vh;
-  padding-top: 20%;
-  margin-top: 20%;
-  margin-bottom: 2%;
-}
-
-.brand-logo.icon {
-  background: url('icon.svg') no-repeat center;
-  padding: 1em;
-}
-
 a {
   color: #333;
 }
