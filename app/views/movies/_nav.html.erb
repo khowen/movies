@@ -1,7 +1,7 @@
 <nav>
   <div class="nav-wrapper purple darken-2">
     <div class="container">
-    <%= image_tag "logo.svg", class: "brand-logo icon" %>
+    <%= link_to "#{image_tag('icon.svg')}".html_safe, movies_path, class: "brand-logo icon" %>
      <% if user_signed_in? %>
       <ul id="nav-mobile" class="right hide-on-med-and-down">
         <li><%= link_to "Add Movie", new_movie_path %></li>

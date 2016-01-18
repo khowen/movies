@@ -1,3 +1,26 @@
+
+
+/*# sourceMappingURL=dashboard.css.map */
+
+.home-icon {
+  width: 40%;
+  height: auto;
+  margin: 12% auto 0 auto;
+}
+
+.home-title {
+  margin-top: -1em;
+}
+
+/*# sourceMappingURL=home.css.map */
+/* line 7, /Users/Katie/ga/wdi/projects/movies/app/assets/stylesheets/home.scss */
+.home-image {
+  background: url("icon.svg") no-repeat top center;
+  height: 20vh;
+  padding-top: 20%;
+  margin-top: 20%;
+  margin-bottom: 2%;
+}
 /*
  * This is a manifest file that'll be compiled into application.css, which will include all the files
  * listed below.
@@ -10,9 +33,10 @@
  * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
  * file per style scope.
  *
- *= require_tree .
- *= require_self
+
+
  */
+
 body {
   height: 100%;
   padding-bottom: 20%;

@@ -1,3 +1,23 @@
+
+
+/*# sourceMappingURL=dashboard.css.map */
+
+.home-image {
+  background: url("icon.svg") no-repeat top center;
+  height: 20vh;
+  padding-top: 20%;
+  margin-top: 20%;
+  margin-bottom: 2%; }
+
+/*# sourceMappingURL=home.css.map */
+/* line 7, /Users/Katie/ga/wdi/projects/movies/app/assets/stylesheets/home.scss */
+.home-image {
+  background: url("icon.svg") no-repeat top center;
+  height: 20vh;
+  padding-top: 20%;
+  margin-top: 20%;
+  margin-bottom: 2%;
+}
 /*
  * This is a manifest file that'll be compiled into application.css, which will include all the files
  * listed below.
@@ -10,16 +30,13 @@
  * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
  * file per style scope.
  *
- *= require_tree .
- *= require_self
+
+
  */
+
 body {
   height: 100%;
   padding-bottom: 20%;
-}
-
-button:focus {
-  outline: none;
 }
 input:not([type]):focus:not([readonly]), input[type=text]:focus:not([readonly]), input[type=password]:focus:not([readonly]), input[type=email]:focus:not([readonly]), input[type=url]:focus:not([readonly]), input[type=time]:focus:not([readonly]), input[type=date]:focus:not([readonly]), input[type=datetime-local]:focus:not([readonly]), input[type=tel]:focus:not([readonly]), input[type=number]:focus:not([readonly]), input[type=search]:focus:not([readonly]), textarea.materialize-textarea:focus:not([readonly]) {
   border-bottom: 1px solid #c6ff00;
@@ -58,8 +75,4 @@ a:hover {
   color: #c6ff00;
 }
 
-.brand-logo.icon img {
-  padding: 1em;
-  padding-top: 0;
-}
 

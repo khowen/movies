@@ -1,8 +1,11 @@
-.home-image {
-  background: url("icon.svg") no-repeat top center;
-  height: 20vh;
-  padding-top: 20%;
-  margin-top: 20%;
-  margin-bottom: 2%; }
+.home-icon {
+  width: 40%;
+  height: auto;
+  margin: 12% auto 0 auto;
+}
+
+.home-title {
+  margin-top: -1em;
+}
 
 /*# sourceMappingURL=home.css.map */
